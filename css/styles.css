@@ -5,7 +5,7 @@
 }
 
 @font-face {
-    font-family: "Nunito Sans";
+    font-family: 'Nunito Sans', Calibri;
 }
 
 body {
@@ -40,6 +40,7 @@ header {
     background: #EAEAEA;
     box-shadow: 5px 5px 10px #707070;
     border-bottom: solid white 2px;
+    font-family: Calibri;
     font-weight: 600;
     padding: 5px;
     border-radius: 7px;
@@ -56,15 +57,21 @@ header {
     height: 50px;
     background-color: #CCFFEB;
     text-align: center;
+    border-bottom: 1px dashed;
+    border-top: 1px dashed;
 }
+
 
 nav a {
     text-decoration: none;
+    display: inline-block;
+    position: relative;
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 2.3em;
+    font-size: 2.1em;
     font-weight: 600;
     color: black;
     padding: 0 15px;
+    line-height: 50px;
 }
 
 nav a:hover {
@@ -72,7 +79,9 @@ nav a:hover {
 }
 
 .on {
-    border-bottom: 2px solid black;
+    content: '';
+    height: 1.21em;
+    border-bottom: 2px solid;
 }
 
 h1 {
@@ -108,7 +117,7 @@ form {
 }
 
 p {
-    background-color: #00FF99;
+    font-size: 1.5em;
 }
 
 

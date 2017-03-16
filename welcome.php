@@ -1,6 +1,7 @@
 <?php $pageTitle = "Request Page";
-include "inc/header.php" ?>
-
+include "inc/header.php";
+include "inc/linkstyler.php";
+?>
 
 <p>
 

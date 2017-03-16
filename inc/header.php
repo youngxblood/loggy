@@ -11,18 +11,19 @@
 <body>
 <header>
     <h1>Loggy: For You</h1>
-    <br/>
+    <br/>       <!--     |Below is the date function that grabs the date real-time|     -->
     <span class="date"> <?php echo date("l, j, F") ?> </span>
-    <nav class="headerNAV">
+
+    <nav class="headerNAV"> <!--     |PHP to enable link styling, $section = page|     -->
         <a href="about.php?cat=about" class="<?php if ($section == "about") {
             echo "on";
-        } ?>">About</a>
-        <a href="logs.php?cat=logs" class="<?php if ($section == "about") {
+        } ?>">ABOUT</a>
+        <a href="logs.php?cat=logs" class="<?php if ($section == "logs") {
             echo "on";
-        } ?>">Logs</a>
-        <a href="userfeedback.php?cat=feedback" class="<?php if ($section == "about") {
+        } ?>">LOGS</a>
+        <a href="userfeedback.php?cat=feedback" class="<?php if ($section == "feedback") {
             echo "on";
-        } ?>">Feedback</a>
-        <a class="on">MEOW</a>
+        } ?>">FEEDBACK</a>
     </nav>
+
 </header>
